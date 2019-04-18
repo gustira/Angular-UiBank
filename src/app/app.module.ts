@@ -5,12 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ListCustomerComponent } from './customer/list-customer.component';
 import { GetbyidCustomerComponent } from './customer/getbyid-customer.component';
+import { NavComponent } from './nav/nav.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ListCustomerComponent,
-    GetbyidCustomerComponent
+    GetbyidCustomerComponent,
+    NavComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
